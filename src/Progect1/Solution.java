@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class Solution {
       public static void main(String[] args) throws IOException {
           Scanner scanner = new Scanner(System.in);
-          System.out.println("Зашифровать текст - 1, Расшифровать текст с помощью ключа - 2,Расшифровать текст методом Brute Force - 3 ");
+          System.out.println("Зашифровать текст - 1, Расшифровать текст с помощью ключа - 2, Расшифровать текст методом Brute Force - 3 ");
           String answer = scanner.nextLine();
           if (answer.equals("1")) {
               Encoder.encoder();
